@@ -1,24 +1,29 @@
-# README
+# Rails API for use with React-News Project
+Created for use with [React-News project](https://github.com/LondonJim/React-News)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Setup
 
-Things you may want to cover:
+install dependencies:
 
-* Ruby version
+`bundle`
 
-* System dependencies
+Testing:
 
-* Configuration
+`rails test`
 
-* Database creation
+Run locally (localhost:3000):
 
-* Database initialization
+`rails server`
 
-* How to run the test suite
+## Routes
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+#### Articles
+GET /articles(.:format)
+POST /articles(.:format)
 
-* ...
+#### Article
+GET /articles/:id
+PATCH /articles/:id
+PUT /articles/:id
+DELETE /articles/:id
