@@ -20,10 +20,14 @@ Run locally (localhost:3000):
 
 #### Articles
 GET /articles(.:format)
+
 POST /articles(.:format)
 
 #### Article
 GET /articles/:id
+
 PATCH /articles/:id
+
 PUT /articles/:id
+
 DELETE /articles/:id
